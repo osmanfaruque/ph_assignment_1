@@ -39,64 +39,13 @@ nav button {
     font-size: 18px;
     font-weight: 600;
 }
+nav button:hover {
+    background-color: rgb(0, 106, 80);
+    color: white;
+    cursor: pointer;
+}
 
 /* Main */
-/* main {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 80;
-    padding: 0px;
-} */
-
-/* hero */
-/* .hero {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 64px;
-    padding: 80px 100px 80px 100px;
-    border-radius: 24px;
-    background: rgb(198, 228, 214);
-}
-
-.hero_content {
-    width: 622px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 24;
-    padding: 0px;
-}
-
-#hero_title {
-    color: rgba(14, 14, 14, 0.5);
-    font-size: 24px;
-    font-weight: 500;
-}
-
-#hero_description {
-
-color: rgb(14, 14, 14);
-font-size: 56px;
-font-weight: 700;
-line-height: 67px;
-}
-
-#hero_button {
-    align-items: center;
-    padding: 17px 34px;
-    border-radius: 8px;
-    background: rgb(0, 106, 80);
-    color: rgb(255, 255, 255);
-    font-size: 18px;
-} */
-
-
-/* CHAT GPT CODE container */
 main {
     display: flex;
     flex-direction: column;
@@ -105,7 +54,6 @@ main {
     gap: 80px;
     padding: 0;
 }
-
 /* Hero Section */
 .hero {
     display: flex;
@@ -115,18 +63,15 @@ main {
     gap: 64px;
     padding: 80px 100px;
     border-radius: 24px;
-    background: rgb(198, 228, 214);
+    background: #C6E4D6;
 }
-
 /* Hero Content */
 .hero_content {
-    max-width: 622px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     align-items: flex-start;
     gap: 24px;
-    padding: 0;
+    margin-left: -40px; /* 40px gap to push content into padding */
 }
 
 /* Hero Title */
@@ -138,35 +83,33 @@ main {
 }
 
 #hero_description {
-    color: rgb(14, 14, 14);
     font-size: 56px;
     font-weight: 700;
-    line-height: 1.2;
-    margin: 0; /* Remove default margins */
 }
-
 /* Hero Button */
 #hero_button {
     align-items: center;
     padding: 17px 34px;
     border-radius: 8px;
-    background: rgb(0, 106, 80);
+    background: #006A50;
     color: rgb(255, 255, 255);
     font-size: 18px;
+    font-weight: 600;
     border: none;
     cursor: pointer;
     text-transform: uppercase;
     transition: background 0.3s ease;
 }
-
 #hero_button:hover {
-    background: rgb(0, 85, 65);
+    background: #ffffff;
+    color: #006A50;
+}
+/* Hero Image */
+.hero_image {
+    border-radius: 12px;
+    margin-right: -40px; /* 40px gap to push content into padding */
 }
 
-/* Hero Image */
-/* .hero_image {
-    max-width: 300px;
-    height: auto;
-    object-fit: contain;
-    border-radius: 12px;
-} */
+
+
+
