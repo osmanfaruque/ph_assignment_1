@@ -1,0 +1,28 @@
+/* Universal */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/* navbar */
+
+.navbar{
+    padding: 24px 160px 24px 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* .nav_btn */
+.nav_button{
+    padding: 15px 30px;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    color: rgb(0, 106, 80);
+    font-size: 18px;
+    font-weight: 600;
+    
+}
