@@ -691,3 +691,22 @@ main {
     gap: 24px;
     padding: 0px;
 }
+footer{
+display: flex;
+flex-direction: column;justify-content: space-between;
+align-items: center;
+gap: 32px;
+padding: 50px 160px 50px 160px;
+background: rgb(255, 255, 255);
+}
+footer h1{
+color: rgb(14, 14, 14);
+font-size: 32px;
+font-weight: 700;
+}
+footer ul{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 23px;
+list-style: none;
+}
