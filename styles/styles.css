@@ -431,7 +431,7 @@ main {
     font-weight: 400;
 }
 
-.newscard {
+.news_card {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -442,7 +442,7 @@ main {
     background: rgb(255, 255, 255);
 }
 
-.newscard_rev {
+.news_card_rev {
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-start;
@@ -473,7 +473,7 @@ main {
     gap: 12px;
 }
 
-#card_btn {
+#card_btn1 {
     padding: 13px 26px 13px 26px;
     border-radius: 8px;
     background: #006a50;
@@ -482,7 +482,35 @@ main {
     font-weight: 600;
 }
 
-#card_btn:hover {
+#card_btn1:hover {
+    background: #ffffff;
+    color: #006a50;
+    border: 1px solid #006a50;
+}
+#card_btn2 {
+    padding: 13px 26px 13px 26px;
+    border-radius: 8px;
+    background: #006a50;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#card_btn2:hover {
+    background: #ffffff;
+    color: #006a50;
+    border: 1px solid #006a50;
+}
+#card_btn3 {
+    padding: 13px 26px 13px 26px;
+    border-radius: 8px;
+    background: #006a50;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#card_btn3:hover {
     background: #ffffff;
     color: #006a50;
     border: 1px solid #006a50;
