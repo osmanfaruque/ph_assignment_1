@@ -625,8 +625,8 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 64px;
     gap: 16px;
-    padding: 0px;
 }
 
 .newsletter h1 {
@@ -639,28 +639,36 @@ main {
     color: rgba(14, 14, 14, 0.7);
     font-size: 16px;
     font-weight: 400;
+    text-align: center;
 }
-
+.input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    padding: 0;
+    width: 100%;
+}
 
 .input input {
     color: rgba(14, 14, 14, 0.3);
     font-size: 16px;
     font-weight: 400;
-    gap: 24px;
     padding: 18px 40px;
     border-radius: 8px 0px 0px 8px;
     background: rgb(255, 255, 255);
+    border: none;
+    flex: 100%;
 }
 
 .input button {
-    align-items: center;
-    gap: 48;
+
     padding: 17px 34px;
     color: rgb(255, 255, 255);
-    font-family: Fira Sans;
     font-size: 18px;
     font-weight: 600;
-
+    border: none;
     border-radius: 0px 8px 8px 0px;
     background: #006a50;
     cursor: pointer;
@@ -668,7 +676,9 @@ main {
 }
 
 .input button:hover {
-    background: #45a049;
+    background: rgb(198, 228, 214);
+    color: black;
+    box-shadow: inset 0 0 0 2px #004d40;
 }
 
 .note {
